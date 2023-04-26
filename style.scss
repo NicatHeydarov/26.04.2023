@@ -1,0 +1,24 @@
+.boxes{
+margin: 200px;
+  width: 250px; 
+    display: grid;
+  grid-template-columns: auto auto ;
+  background-color: rgba(62, 62, 239, 0.954);
+
+   .box{
+   color: white;
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+   }
+
+
+      }
+      @media screen and (max-width:600px){
+        .boxes{
+            background-color: red;
+        }
+        
+      }
+  
